@@ -6,16 +6,19 @@
     <title>Broadway Design</title>
   </head>
   <body>
-    <h1 id="home">Broadway Design</h1>
-    <nav>
-      <p><a href="#home">Home</a></p>
-      <p><a href="#about">About</a></p>
-      <p><a href="#work">Work</a></p>
-      <p><a href="#team">Team</a></p>
-      <p><a href="#contact">Contact</a></p>
-    </nav>
+    <!-- Header division -->
+    <div class="header">
+      <h1 id="home">Broadway Design</h1>
+      <nav>
+        <p><a href="#home">Home</a></p>
+        <p><a href="#about">About</a></p>
+        <p><a href="#work">Work</a></p>
+        <p><a href="#team">Team</a></p>
+        <p><a href="#contact">Contact</a></p>
+      </nav>
+    </div>
     <!-- Main body of Broadway -->
-    <div>
+    <div class="middle">
       <h2 id="about">Our Process</h2>
       <img src="./resources/icons/identify.svg"/>
       <h4>Identify</h4>
@@ -26,10 +29,7 @@
       <img src="./resources/icons/execute.svg"/>
       <h4>Execute</h4>
       <p>We put everything we have into our work</p>
-    </div>
-    <!-- Tail end of Body with contact and previous work -->
-    <div>
-      <h4>Designed in New York</h4>
+      <h4 class="divider">Designed in New York</h4>
       <h4 id="work">Portfolio</h4>
       <p>Coming Soon</p>
       <h4 id="team">Team</h4>
@@ -39,14 +39,13 @@
       <p>E-mail: test@example.com</p>
       <p>Twitter: @test</p>
     </div>
-    <!-- Footer of page includign the nav tokens -->
-    <div>
-      <p>© Broadway 2017
+    <!-- Footer of page includign the nav tokens -->    
+    <p class="footer">© Broadway 2017
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#work">Work</a>
       <a href="#team">Team</a>
-      <a href="#contact">Contact</a></p>
-    </div>
+      <a href="#contact">Contact</a>
+    </p>
   </body>
 </html>
